@@ -26,12 +26,14 @@ function App() {
       <main>
         {/* Show the current number in h1 element */}
         <h1>{number}</h1>
+        <div class='button-container'>
         <button class="increment" onClick={onIncrement}>
           +
         </button>
         <button class="decrement" onClick={onDecrement}>
           -
         </button>
+        </div>
       </main>
     </div>
   );

@@ -1,0 +1,35 @@
+main {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(160, 224, 160, 0.632);
+    padding: 5%;
+    margin: 5%;
+}
+
+h1 {
+    display: inline-block;
+    background-color: rgb(115, 228, 128);
+    padding: 2%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 1em;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(4, 101, 4, 0.486);
+    background-color: rgb(58, 199, 58);
+    font-weight: bold;
+}
