@@ -1,5 +1,5 @@
 # Explanation
-This is a *simple counter* app that I build with **React.js**.
+This is a *simple counter* app that I built with **React.js**.
 
 I embarked on this project as a series of practice exercises after dedicating a couple of years to learning front-end web development. My goal was twofold: to enhance my coding skills and bolster my resume, ultimately preparing myself for the job market.
 
