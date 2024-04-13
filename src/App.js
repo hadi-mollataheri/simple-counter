@@ -9,18 +9,32 @@ function App() {
   const [number, setNumber] = useState(0);
 
   // Create event handler function for onClick events
-  // of 2 buttons 
-  
+  // of 2 buttons
+  const onIncrement = () => {
+    // Increment once(or update) the 'number' when the '+' is clicked
+    setNumber((prevNumber) => prevNumber + 1);
+  };
 
-  return <div className="App">
-    {/*Create a h1 elem and 2 button elements inside a main element */}
-    <main>
-      {/* Show the current number in h1 element */}
-      <h1>{number}</h1>
-      <button class="increment">+</button>
-      <button class="decrement">-</button>
-    </main>
-  </div>;
+  const onDecrement = () => {
+    // Decrement once(or update) the 'number' when the '-' is clicked
+    setNumber((prevNumber) => prevNumber - 1);
+  };
+
+  return (
+    <div className="App">
+      {/*Create a h1 elem and 2 button elements inside a main element */}
+      <main>
+        {/* Show the current number in h1 element */}
+        <h1>{number}</h1>
+        <button class="increment" onClick={onIncrement}>
+          +
+        </button>
+        <button class="decrement" onClick={onDecrement}>
+          -
+        </button>
+      </main>
+    </div>
+  );
 }
 
 export default App;
