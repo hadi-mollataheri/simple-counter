@@ -7,8 +7,6 @@ Project number: 2
 
 [**You can see this web app in GitGub-Pages**](https://hadi-mollataheri.github.io/simple-counter/)
 
-**Thanks to [contactmentor](contactmentor.com) for project ideas**
-
 ## Available Scripts
 
 In the project directory, you can run:
